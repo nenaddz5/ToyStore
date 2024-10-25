@@ -119,3 +119,4 @@ cards.forEach((card) => {
     event.currentTarget.classList.remove('shadow-sm')
   })
 })
+}
