@@ -1,6 +1,22 @@
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
 <head>
+  <script>
+(function(w, d) {
+  w.PushEngage = w.PushEngage || [];
+  w._peq = w._peq || [];
+  PushEngage.push(['init', {
+      appId: '13dc6b54-9347-43ec-93d9-167a4cd43ae1'
+  }]);
+
+  var e = d.createElement('script');
+
+  e.src = 'https://clientcdn.pushengage.com/sdks/pushengage-web-sdk.js';
+  e.async = true;
+  e.type = 'text/javascript';
+  d.head.appendChild(e);
+})(window, document);
+</script>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
